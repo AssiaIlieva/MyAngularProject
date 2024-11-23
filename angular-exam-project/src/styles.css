@@ -1,1 +1,122 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap");
+
+/*-------------------------------------------------
+GLOBALS CLASSES
+-------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ropa Sans", sans-serif;
+}
+body {
+  background: url(../public/pattern-1.jpg);
+}
+
+p {
+  font-family: "Ropa Sans", sans-serif;
+  color: #978e86;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
+a {
+  text-decoration: none;
+  color: #cf9359;
+}
+a:hover {
+  text-decoration: none;
+  color: #978e86;
+}
+ul li {
+  list-style: none;
+  outline: none;
+}
+img {
+  border: none;
+}
+img {
+  border: none;
+}
+h1 {
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 26px;
+  color: #282623;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+/*-------------------------------------------------
+CSS TWEAKS
+-------------------------------------------------*/
+.clearing {
+  clear: both;
+}
+.fltLeft {
+  float: left;
+}
+.flrRight {
+  float: right;
+}
+.marLeft30 {
+  margin-left: 30px !important;
+}
+.marLeft20 {
+  margin-left: 20px;
+}
+.marRight20 {
+  margin-right: 20px;
+}
+.marRight25 {
+  margin-right: 25px;
+}
+.marRight30 {
+  margin-right: 30px;
+}
+.marginTop {
+  margin-top: 30px;
+}
+.marginTop10 {
+  margin-top: 10px;
+}
+.marginBottom {
+  margin-bottom: 60px;
+}
+.padTop {
+  padding-top: 20px;
+}
+.padBottom {
+  padding-bottom: 30px;
+}
+.padBottom20 {
+  padding-bottom: 20px;
+}
+.wid960 {
+  width: 960px !important;
+}
+/*-------------------------------------------------
+GENERAL CLASSES
+-------------------------------------------------*/
+
+.panel {
+  overflow: hidden;
+}
+.title {
+}
+.content {
+  overflow: hidden;
+  font-size: 14px;
+}
+.button-link {
+}
+.button-link a {
+  font-family: "Ropa Sans", sans-serif;
+  text-transform: uppercase;
+}
+.top-border {
+  border-top: 1px solid #dadacb;
+  margin: 20px 20px 14px 20px;
+}
+.bottom-border {
+  border-top: 1px solid #dadacb;
+  margin: 14px;
+}
